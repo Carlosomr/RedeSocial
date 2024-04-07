@@ -8,7 +8,7 @@ export function Sidebar(){
             
             <div className={styles.profile}>
             <img className= {styles.avatar} 
-            src='https://avatars.githubusercontent.com/u/142277959?v=4'></img>
+            src='https://github.com/Carlosomr.png'></img>
 
                 <strong>Carlos Eduardo</strong>
                 <span>Desenvolvedor web</span>
@@ -16,7 +16,7 @@ export function Sidebar(){
 
             <footer>
                 <a href="#">
-                    <PencilLine />
+                    <PencilLine size={15}/>
                     Editar seu perfil
                 </a>
             </footer>
